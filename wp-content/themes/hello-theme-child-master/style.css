@@ -1,0 +1,655 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme-child/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 2.0.0
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/* Add your custom styles here */
+* {
+  padding: 0px;
+  margin: 0px
+}
+
+
+
+/* hero slider css end  */
+
+
+.hero1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url('imgsss/hero1.png') center/cover no-repeat;
+
+}
+
+.hero2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url('imgsss/hero2.png') center/cover no-repeat;
+
+}
+
+.hero3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url('imgsss/hero3.png') center/cover no-repeat;
+
+}
+
+.hero4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url('imgsss/hero4.png') center/cover no-repeat;
+
+}
+
+.hero-content .container {
+  align-items: center;
+  text-align: center;
+  padding: 200px 0 150px 0;
+}
+
+.hero-content h1 {
+  font-size: 78px;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+}
+
+.hero-content h1 span {
+  color: #AECC53;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-content p {
+  font-size: var(--para-size);
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.hero-content .btn {
+  background: #00353E;
+  color: #fff;
+  padding: 15px 40px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 0;
+
+}
+
+.hero-content .btn:hover {
+  background: #AECC53;
+  color: #00353E;
+}
+
+
+
+.hero_slider .slick-arrow {
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  position: absolute;
+  z-index: 1;
+  background: transparent;
+  color: #AECC53;
+  border: 1px solid #fff;
+  border-radius: 50%;
+
+}
+
+
+
+.hero_slider .slick-prev {
+  left: 15%;
+  top: 45%;
+
+}
+
+.hero_slider .slick-next {
+  right: 15%;
+  top: 45%;
+
+}
+
+.hero_slider .slick-dots {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 46%;
+  bottom: 4%;
+
+}
+
+.hero_slider .slick-dots li {
+  display: inline;
+}
+
+
+
+.hero_slider .slick-dots li button {
+  width: 8px;
+  height: 8px;
+  border: none;
+  margin: 0 10px;
+  text-indent: -9999px;
+  background: #747688;
+  transition: all .6s;
+  border-radius: 8px;
+  padding: 0;
+}
+
+
+.hero_slider .slick-dots .slick-active button {
+  background: #fff;
+}
+
+/* hero slider css start */
+
+
+
+/* home page about us asection start  */
+
+.heading-divider .elementor-heading-title:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #00353E;
+  width: 127px;
+  height: 1px;
+  transform: translateY(15px);
+}
+
+.heading-divider h2.elementor-heading-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #AECC53;
+  width: 37px;
+  height: 5px;
+  transform: translateY(17px);
+}
+
+/* counter css start */
+.box-circle:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 18%;
+  background: #AECC53;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  transform: translateY(-50%);
+}
+
+.box-circle-tablate:after {
+  display: none;
+}
+
+/* counter css end */
+
+/* home page about us section end  */
+
+/* heading divider css start */
+
+.heading-divider h2.elementor-heading-title:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 145px;
+  height: 1px;
+  transform: translateY(14px);
+  background: #00353E;
+  margin-left: -72.5px;
+}
+
+.heading-divider h2.elementor-heading-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 37px;
+  height: 5px;
+  transform: translateY(16px);
+  margin-left: -18.5px;
+  background: #AECC53;
+}
+
+/* heading divider css start */
+
+/*services slider css start */
+
+.services-slider .slick-list .slick-track {
+  display: flex !important;
+}
+
+.services-slider .slick-slide {
+  height: inherit !important;
+  position: relative;
+  background: #fff;
+  margin-left: 20px;
+  background-color: #00353E;
+}
+
+
+.services-slider .service-card .card-image a {
+  display: block !important;
+}
+
+.services-slider .service-card .card-image img {
+  aspect-ratio: 1/0;
+  object-fit: cover;
+  width: 100%;
+}
+
+.services-slider .service-card .card-content {
+  background-color: #00353E;
+  padding: 30px;
+}
+
+.services-slider .service-card .card-content h3 a {
+  margin: 0 0 20px;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none !important;
+}
+
+.services-slider .service-card .card-content h3 a:hover {
+  color: #AECC53;
+  transition: all .3s ease-in-out;
+}
+
+.services-slider .service-card .card-content p {
+  margin: 0 0 40px;
+  line-height: 1.4em;
+  font-size: 18px;
+  color: #fff;
+}
+
+.services-slider .service-card .card-content .learn-more {
+  font-weight: 600;
+  color: #AECC53;
+  text-decoration: none;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  font-size: 18PX;
+
+}
+
+
+.services-slider .service-card .card-content .learn-more:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(http://mylocal.mykesari.com/wp-content/uploads/2025/07/right-arrow.svg) no-repeat center right;
+  width: 40px;
+  height: 16px;
+  transform: translate(35px, 6px);
+
+}
+
+.services-slider .service-card .card-content .learn-more:hover {
+  color: #fff !important;
+  transition: all .3s ease-in-out;
+}
+
+.services-slider .service-card .card-content .learn-more:hover i {
+  transform: translateX(10px);
+  transition: all .3s ease-in-out;
+  color: #fff;
+}
+
+
+.services-slider .slick-dots {
+  text-align: end;
+
+}
+
+.services-slider .slick-prev {
+  left: 15%;
+  top: 45%;
+}
+
+.services-slider .slick-next {
+  right: 15%;
+  top: 45%;
+}
+
+.services-slider .slick-dots {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 44%;
+  bottom: -48px;
+}
+
+.services-slider .slick-dots li {
+  display: inline;
+}
+
+.services-slider .slick-dots li button {
+  width: 8px;
+  height: 8px;
+  border: none;
+  margin: 0 10px;
+  text-indent: -9999px;
+  background: #747688;
+  transition: all .6s;
+  border-radius: 8px;
+  padding: 0;
+}
+
+.services-slider .slick-dots .slick-active button {
+  background: #00353E;
+}
+
+/*services slider css start */
+
+
+
+
+/* service section css start */
+
+
+.service-section {
+  padding: 80px 0;
+}
+
+
+
+.service-section .service-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.service-section .service-card .card-image a {
+  display: block !important;
+}
+
+
+.service-section .service-card .card-image img {
+  aspect-ratio: 1/0;
+  object-fit: cover;
+  width: 100%;
+}
+
+.service-section .service-card .card-content {
+  background-color: #00353E;
+  padding: 30px;
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.service-section .service-card .card-content h3 {
+  margin: 0 0 20px;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: none !important;
+}
+
+.service-section .service-card .card-content h3:hover {
+  color: #AECC53;
+  transition: all .3s ease-in-out;
+}
+
+.service-section .service-card .card-content p {
+  margin: 0 0 40px;
+  line-height: 1.4em;
+  font-size: 18px;
+  color: #fff;
+}
+
+.service-section .service-card .card-content .service-btn .learn-more {
+  font-weight: 600;
+  color: #AECC53;
+  text-decoration: none;
+  justify-content: center;
+  bottom: 20px;
+  position: absolute;
+  font-size: 18PX;
+  font-family: 'open sans', sans-serif !important;
+
+
+}
+
+
+.service-section .service-card .card-content .service-btn .learn-more:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(http://mylocal.mykesari.com/wp-content/uploads/2025/07/right-arrow.svg) no-repeat center right;
+  width: 40px;
+  height: 16px;
+  transform: translate(50px, 6px);
+}
+
+
+.service-section .service-card .card-content .learn-more:hover {
+  color: #fff !important;
+  transition: all .3s ease-in-out;
+}
+
+.services-slider .service-card .card-content .learn-more:hover i {
+  transform: translateX(10px);
+  transition: all .3s ease-in-out;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+.service-hero-section-wrapper {
+  margin-top: -200px;
+  padding: 250px 0px 120px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  text-align: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://mylocal.mykesari.com/wp-content/uploads/2025/07/BG.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+.service-hero-section-wrapper .icons ul li {
+  margin-right: 30px;
+
+}
+
+.service-hero-section-wrapper .service-hero-section-container {
+  max-width: 770px;
+  margin: 0 auto;
+}
+
+
+.service-hero-section-wrapper .service-hero-section-container .service-hero-content h2 {
+  font-family: "Times New Roman", Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2em;
+  color: #AECC53;
+  margin: 0 0 20px;
+}
+
+
+.service-hero-section-wrapper .service-hero-section-container .service-hero-content p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.service-hero-section-wrapper .service-hero-section-container .service-hero-content p span,
+.service-hero-section-wrapper .service-hero-section-container .service-hero-content p a {
+  font-family: "Open Sans", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2em;
+  color: #fff;
+  margin-left: 5px;
+}
+
+
+.service-hero-section-wrapper .service-hero-section-container .service-hero-content p a:hover {
+  color: #AECC53;
+}
+
+/* service-section  section end */
+
+
+
+
+
+/* contact-form css start */
+
+.custom-contact-form .form-row p {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0;
+}
+
+.custom-contact-form input,
+.custom-contact-form textarea {
+  width: 100%;
+  padding: 20px 15px;
+  margin-bottom: 15px;
+  border: none;
+  background: #f8f8f8;
+  font-size: 14px;
+  color: #333;
+  border-radius: 4px;
+}
+
+.custom-contact-form input::placeholder,
+.custom-contact-form textarea::placeholder {
+  color: #999;
+}
+
+.custom-contact-form textarea {
+  resize: none;
+  height: 150px;
+}
+
+.custom-contact-form button {
+  display: block;
+  margin: auto;
+  padding: 20px 60px;
+  background-color: #00353E;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  border-radius: 0;
+}
+
+.custom-contact-form button:hover {
+  background-color: #AECC53;
+  color: #00353E;
+}
+
+/* 
+contact form css end */
+
+@media screen and (max-width:991px) {
+
+  /* hero section  start*/
+  .hero-content h1 {
+    font-size: 48px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  .hero_slider .slick-dots {
+    left: 42%;
+    bottom: 4%;
+
+  }
+
+  /* hero section end */
+
+  /* home page about us asection start  */
+
+  /* counter css start */
+
+  .box-circle-tablate:after {
+    display: block;
+  }
+
+  /* counter css end */
+
+  /* home page about us asection end  */
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /* hero section  start*/
+
+  .hero {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .hero-content .container {
+    padding: 160px 10px 70px 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 34px;
+  }
+
+  .hero-content .btn {
+    padding: 0.8rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+
+  .hero_slider .slick-dots {
+    left: 38%;
+    bottom: 2%;
+  }
+
+  /* hero section  end*/
+
+  /* contact-form css start */
+
+  .custom-contact-form .form-row p {
+    display: block;
+  }
+
+  /* contact form css end */
+
+}

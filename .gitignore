@@ -1,0 +1,17 @@
+# WordPress core
+wp-admin/
+wp-includes/
+
+# Uploads & cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+
+# Config
+wp-config.php
+
+# Editor / OS
+.vscode/
+.DS_Store
+node_modules/
