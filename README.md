@@ -24,5 +24,5 @@ MyKesari is a WordPress-based project where I practiced:
 - MySQL
 - Git & GitHub
 
-## 📂 Project Structure
+
 
